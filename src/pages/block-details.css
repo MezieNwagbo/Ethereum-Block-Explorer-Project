@@ -1,0 +1,55 @@
+.block-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.block-details-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  padding: 16px;
+  width: 60%;
+  margin: auto;
+  background-color: azure;
+}
+
+.block-details-section h3 {
+  margin: 8px;
+  justify-self: end;
+}
+
+.block-details-section p {
+  margin: 8px;
+  justify-self: center;
+}
+
+.block-details-container p {
+  align-self: stretch;
+}
+
+.block-details {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.see-transactions {
+  margin-top: 20px;
+}
+
+.see-transactions a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 20px;
+}
+
+.block-transactions-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: azure;
+  margin: 0px 60px;
+  border-radius: 4px;
+}
+
+.block-transactions-section h4 {
+  cursor: default;
+}

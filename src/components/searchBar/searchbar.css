@@ -1,0 +1,20 @@
+.searchbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar-input {
+  height: 40px;
+  width: 40vw;
+  outline: none;
+  padding-left: 5px;
+  /* border-radius: 2px 0px 0px 2px; */
+}
+
+.searchbar-container h4 {
+  background-color: rgb(57, 79, 97);
+  padding: 12px;
+  border-radius: 0px 4px 4px 0px;
+  color: #fff;
+}
